@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a565b26b-8442-4e23-ac14-2f79d93aa9a1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="a565b26b-8442-4e23-ac14-2f79d93aa9a1" name="Changes" comment="231212">
+      <change afterPath="$PROJECT_DIR$/src/Part1/Q1157.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Part1/Q1157.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +99,7 @@
       <workItem from="1684756803796" duration="65000" />
       <workItem from="1684757201155" duration="3329000" />
       <workItem from="1700100409673" duration="890000" />
-      <workItem from="1702345484062" duration="1439000" />
+      <workItem from="1702345484062" duration="2624000" />
     </task>
     <task id="LOCAL-00001" summary="mm">
       <created>1682959950105</created>
@@ -123,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684496636122</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="231212">
+      <created>1702347666268</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1702347666268</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,6 +149,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="mm" />
     <MESSAGE value="mmd" />
-    <option name="LAST_COMMIT_MESSAGE" value="mmd" />
+    <MESSAGE value="231212" />
+    <option name="LAST_COMMIT_MESSAGE" value="231212" />
   </component>
 </project>
