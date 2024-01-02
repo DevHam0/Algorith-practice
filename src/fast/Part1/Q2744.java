@@ -1,4 +1,4 @@
-package Part1;
+package fast.Part1;
 
 import java.util.Scanner;
 

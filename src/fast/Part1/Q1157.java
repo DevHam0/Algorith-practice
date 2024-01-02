@@ -1,4 +1,4 @@
-package Part1;
+package fast.Part1;
 
 import java.util.Scanner;
 
@@ -11,7 +11,8 @@ import java.util.Scanner;
 public class Q1157 {
 
     public static int[] getAlphabetCount(String str) {
-        int[] count = new int[];
+        int[] count = new int[5];
+        return count;
     }
 
     public static void main(String[] args) {
