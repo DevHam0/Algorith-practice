@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a565b26b-8442-4e23-ac14-2f79d93aa9a1" name="Changes" comment="231212">
-      <change afterPath="$PROJECT_DIR$/src/Part1/Q13223.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part1/Q1543.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pt/Q11382.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pt/Q25314.java" afterDir="false" />
+    <list default="true" id="a565b26b-8442-4e23-ac14-2f79d93aa9a1" name="Changes" comment="240103">
+      <change afterPath="$PROJECT_DIR$/src/DoIt/chap02/ArraySumForIn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DoIt/chap02/CloneArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Part1/Q1157.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Part1/Q1157.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,28 +37,56 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Q11382.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q13223.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q25314.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ArraySumForIn.executor": "Run",
+    "Application.CloneArray.executor": "Run",
+    "Application.Q11382.executor": "Run",
+    "Application.Q13223.executor": "Run",
+    "Application.Q25314.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.Q13223">
+}]]></component>
+  <component name="RunManager" selected="Application.ArraySumForIn">
+    <configuration name="ArraySumForIn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DoIt.chap02.ArraySumForIn" />
+      <module name="Algorith-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DoIt.chap02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CloneArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DoIt.chap02.CloneArray" />
+      <module name="Algorith-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DoIt.chap02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Q11382" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pt.Q11382" />
       <module name="Algorith-practice" />
@@ -88,19 +113,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q1919" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fast.Part1.Q1919" />
-      <module name="Algorith-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fast.Part1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Q25314" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pt.Q25314" />
       <module name="Algorith-practice" />
@@ -114,26 +126,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q2744" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fast.Part1.Q2744" />
-      <module name="Algorith-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fast.Part1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArraySumForIn" />
+        <item itemvalue="Application.CloneArray" />
         <item itemvalue="Application.Q13223" />
         <item itemvalue="Application.Q25314" />
         <item itemvalue="Application.Q11382" />
-        <item itemvalue="Application.Q1919" />
-        <item itemvalue="Application.Q2744" />
       </list>
     </recent_temporary>
   </component>
@@ -164,6 +163,7 @@
       <workItem from="1703588841516" duration="286000" />
       <workItem from="1703609194669" duration="2970000" />
       <workItem from="1703658157466" duration="8000" />
+      <workItem from="1704209585878" duration="1368000" />
     </task>
     <task id="LOCAL-00001" summary="mm">
       <created>1682959950105</created>
@@ -193,7 +193,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702347666268</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="240103">
+      <option name="closed" value="true" />
+      <created>1704209737642</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1704209737642</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,6 +222,7 @@
     <MESSAGE value="mm" />
     <MESSAGE value="mmd" />
     <MESSAGE value="231212" />
-    <option name="LAST_COMMIT_MESSAGE" value="231212" />
+    <MESSAGE value="240103" />
+    <option name="LAST_COMMIT_MESSAGE" value="240103" />
   </component>
 </project>
