@@ -28,6 +28,28 @@ public class IntStackTester {
                         System.out.println("스택이 가득 찼습니다.");
                     }
                     break;
+
+                case 2:             // 팝
+                    try {
+                        x = s.pop();
+                        System.out.println("팝한 데이터는 " + x + "입니다.");
+                    } catch (IntStack.EmptyIntStackException e) {
+                        System.out.println("스택이 비어 있습니다.");
+                    }
+                    break;
+
+                case 3:             // 피크
+                    try {
+                        x = s.peek();
+                        System.out.println("피크한 데이터는 " + x + "입니다.");
+                    } catch (IntStack.EmptyIntStackException e) {
+                        System.out.println("스택이 비어 있습니다.");
+                    }
+                    break;
+
+                case 4:             // 덤프
+                    s.dump();
+                    break;
             }
         }
     }
