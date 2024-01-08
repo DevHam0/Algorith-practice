@@ -3,6 +3,11 @@ package DoIt.chap06;
 import DoIt.chap04.IntStack;
 
 public class QuickSort2 {
+    static void swap(int[] a, int left, int right) {
+        int tmp = a[left];
+        a[left] = a[right];
+        a[right] = a[left];
+    }
 
     // 퀵 정렬(비재귀 버전)
     static void quickSort(int[] a, int left, int right) {
@@ -22,7 +27,16 @@ public class QuickSort2 {
                 while (a[pr] > x) pr--;
                 if (pl <= pr)
                     swap(a, pl++, pr--);
-            } while (pl)
+            } while (pl <= pr);
+
+            if (left < pr) {
+                lstack.push(left);      // 왼쪽 그룹 범위의
+                rstack.push(pr);        // 인덱스를 푸시
+            }
+            if(pl < right) {
+                lstack.push(pl);        // 오른쪽 그룹 범위의
+                rstack.push(right);     // 인덱스를 푸시
+            }
         }
     }
 }

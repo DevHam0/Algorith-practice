@@ -4,29 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a565b26b-8442-4e23-ac14-2f79d93aa9a1" name="Changes" comment="240104">
-      <change afterPath="$PROJECT_DIR$/src/DoIt/chap05/EightQueen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DoIt/chap05/EuclidGCD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DoIt/chap05/Factorial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DoIt/chap05/Hanoi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DoIt/chap05/QueenB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DoIt/chap05/QueenBB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DoIt/chap05/Recur.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DoIt/chap05/RecurMemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DoIt/chap05/RecurX1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DoIt/chap05/RecurX2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DoIt/chap06/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DoIt/chap06/BubbleSort2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DoIt/chap06/BubbleSort3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DoIt/chap06/InsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DoIt/chap06/Partition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DoIt/chap06/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DoIt/chap06/QuickSort2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DoIt/chap06/QuickSortV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DoIt/chap06/SelectionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DoIt/chap06/ShellSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DoIt/chap06/ShellSort2.java" afterDir="false" />
+    <list default="true" id="a565b26b-8442-4e23-ac14-2f79d93aa9a1" name="Changes" comment="240105">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DoIt/chap06/QuickSort2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DoIt/chap06/QuickSort2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,7 +169,8 @@
       <workItem from="1703658157466" duration="8000" />
       <workItem from="1704209585878" duration="1368000" />
       <workItem from="1704332511303" duration="3177000" />
-      <workItem from="1704418116118" duration="11531000" />
+      <workItem from="1704418116118" duration="11749000" />
+      <workItem from="1704677969409" duration="2505000" />
     </task>
     <task id="LOCAL-00001" summary="mm">
       <created>1682959950105</created>
@@ -259,7 +240,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704356591246</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="240105">
+      <option name="closed" value="true" />
+      <created>1704445803499</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1704445803499</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,6 +271,7 @@
     <MESSAGE value="231212" />
     <MESSAGE value="240103" />
     <MESSAGE value="240104" />
-    <option name="LAST_COMMIT_MESSAGE" value="240104" />
+    <MESSAGE value="240105" />
+    <option name="LAST_COMMIT_MESSAGE" value="240105" />
   </component>
 </project>
