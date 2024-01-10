@@ -4,21 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a565b26b-8442-4e23-ac14-2f79d93aa9a1" name="Changes" comment="240108">
-      <change afterPath="$PROJECT_DIR$/src/DoIt/chap07/BMmatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DoIt/chap07/IndexOfTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DoIt/chap07/KMPmatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DoIt/chap08/ArrayLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DoIt/chap08/ArrayLinkedListTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DoIt/chap08/DoubleLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DoIt/chap08/DoubleLinkedListTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DoIt/chap08/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DoIt/chap08/LinkedListTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DoIt/chap08/ToStringTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DoIt/chap09/BinTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DoIt/chap09/BinTreeTester.java" afterDir="false" />
+    <list default="true" id="a565b26b-8442-4e23-ac14-2f79d93aa9a1" name="Changes" comment="240109">
+      <change afterPath="$PROJECT_DIR$/src/DoIt/chap09/Object.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DoIt/chap10/ChainHash.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DoIt/chap10/ChainHashTester.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DoIt/chap07/BFmatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DoIt/chap07/BFmatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DoIt/chap09/BinTreeTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DoIt/chap09/BinTreeTester.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,7 +174,8 @@
       <workItem from="1704332511303" duration="3177000" />
       <workItem from="1704418116118" duration="11749000" />
       <workItem from="1704677969409" duration="11208000" />
-      <workItem from="1704762463558" duration="20701000" />
+      <workItem from="1704762463558" duration="20725000" />
+      <workItem from="1704868404394" duration="3188000" />
     </task>
     <task id="LOCAL-00001" summary="mm">
       <created>1682959950105</created>
@@ -277,7 +269,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704700999535</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="240109">
+      <option name="closed" value="true" />
+      <created>1704789926946</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1704789926946</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -302,6 +302,7 @@
     <MESSAGE value="240104" />
     <MESSAGE value="240105" />
     <MESSAGE value="240108" />
-    <option name="LAST_COMMIT_MESSAGE" value="240108" />
+    <MESSAGE value="240109" />
+    <option name="LAST_COMMIT_MESSAGE" value="240109" />
   </component>
 </project>
