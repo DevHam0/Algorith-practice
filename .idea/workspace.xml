@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a565b26b-8442-4e23-ac14-2f79d93aa9a1" name="Changes" comment="240110">
-      <change afterPath="$PROJECT_DIR$/src/doit_java/_01/BJ11660.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/doit_java/_01/BJ_11659.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/doit_java/_01/BJ_11720.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/doit_java/_01/BJ_1546.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/doit_java/_01/timeComplexityExample1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/doit_java/_01/디버깅_오류.java" afterDir="false" />
+    <list default="true" id="a565b26b-8442-4e23-ac14-2f79d93aa9a1" name="Changes" comment="240124">
+      <change afterPath="$PROJECT_DIR$/src/doit_java/_01/BJ_10986.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/doit_java/_01/BJ_1940.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/doit_java/_01/BJ_2018.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/doit_java/_01/BJ11660.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/doit_java/_01/BJ11660.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,7 +176,8 @@
       <workItem from="1704677969409" duration="11208000" />
       <workItem from="1704762463558" duration="20725000" />
       <workItem from="1704868404394" duration="3216000" />
-      <workItem from="1706057970464" duration="8690000" />
+      <workItem from="1706057970464" duration="10144000" />
+      <workItem from="1706491067371" duration="4359000" />
     </task>
     <task id="LOCAL-00001" summary="mm">
       <created>1682959950105</created>
@@ -288,7 +287,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704871636275</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="240124">
+      <option name="closed" value="true" />
+      <created>1706074950364</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1706074950364</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -315,6 +322,7 @@
     <MESSAGE value="240108" />
     <MESSAGE value="240109" />
     <MESSAGE value="240110" />
-    <option name="LAST_COMMIT_MESSAGE" value="240110" />
+    <MESSAGE value="240124" />
+    <option name="LAST_COMMIT_MESSAGE" value="240124" />
   </component>
 </project>
