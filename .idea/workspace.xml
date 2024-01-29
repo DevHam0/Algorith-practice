@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a565b26b-8442-4e23-ac14-2f79d93aa9a1" name="Changes" comment="240124">
-      <change afterPath="$PROJECT_DIR$/src/doit_java/_01/BJ_10986.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/doit_java/_01/BJ_1940.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/doit_java/_01/BJ_2018.java" afterDir="false" />
+    <list default="true" id="a565b26b-8442-4e23-ac14-2f79d93aa9a1" name="Changes" comment="240129">
+      <change afterPath="$PROJECT_DIR$/src/doit_java/_01/Q08_BJ_1253.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/doit_java/_01/BJ11660.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/doit_java/_01/BJ11660.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DoIt/chap06/PhyscExamSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DoIt/chap06/PhyscExamSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DoIt/chap08/DoubleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DoIt/chap08/DoubleLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DoIt/chap09/Object.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DoIt/chap09/Object.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/doit_java/_01/BJ_1940.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/doit_java/_01/Q07_BJ_1940.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,45 +45,33 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.ArraySumForIn.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CloneArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q11382.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q13223.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q25314.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ArraySumForIn.executor": "Run",
+    "Application.CloneArray.executor": "Run",
+    "Application.Q11382.executor": "Run",
+    "Application.Q13223.executor": "Run",
+    "Application.Q25314.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.RecurMemo">
+}]]></component>
+  <component name="RunManager" selected="Application.Q08_BJ_1253">
     <configuration name="ArraySumForIn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DoIt.chap02.ArraySumForIn" />
-      <module name="Algorithm-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DoIt.chap02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CloneArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DoIt.chap02.CloneArray" />
       <module name="Algorithm-practice" />
       <extension name="coverage">
         <pattern>
@@ -120,6 +109,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Q08_BJ_1253" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="doit_java._01.Q08_BJ_1253" />
+      <module name="Algorithm-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="doit_java._01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RecurMemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DoIt.chap05.RecurMemo" />
       <module name="Algorithm-practice" />
@@ -135,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Q08_BJ_1253" />
         <item itemvalue="Application.RecurMemo" />
         <item itemvalue="Application.Factorial" />
         <item itemvalue="Application.PhysicalExamination" />
         <item itemvalue="Application.ArraySumForIn" />
-        <item itemvalue="Application.CloneArray" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +179,7 @@
       <workItem from="1704762463558" duration="20725000" />
       <workItem from="1704868404394" duration="3216000" />
       <workItem from="1706057970464" duration="10144000" />
-      <workItem from="1706491067371" duration="4359000" />
+      <workItem from="1706491067371" duration="6683000" />
     </task>
     <task id="LOCAL-00001" summary="mm">
       <created>1682959950105</created>
@@ -295,7 +297,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706074950364</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="240129">
+      <option name="closed" value="true" />
+      <created>1706495486870</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1706495486870</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -323,6 +333,7 @@
     <MESSAGE value="240109" />
     <MESSAGE value="240110" />
     <MESSAGE value="240124" />
-    <option name="LAST_COMMIT_MESSAGE" value="240124" />
+    <MESSAGE value="240129" />
+    <option name="LAST_COMMIT_MESSAGE" value="240129" />
   </component>
 </project>
