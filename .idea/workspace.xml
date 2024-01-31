@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a565b26b-8442-4e23-ac14-2f79d93aa9a1" name="Changes" comment="240129">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="a565b26b-8442-4e23-ac14-2f79d93aa9a1" name="Changes" comment="240131">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DoIt/chap08/ArrayLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DoIt/chap08/ArrayLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DoIt/chap08/ArrayLinkedListTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DoIt/chap08/ArrayLinkedListTester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DoIt/chap08/DoubleLinkedListTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DoIt/chap08/DoubleLinkedListTester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DoIt/chap08/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DoIt/chap08/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DoIt/chap08/LinkedListTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DoIt/chap08/LinkedListTester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DoIt/chap09/BinTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DoIt/chap09/BinTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DoIt/chap09/BinTreeTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DoIt/chap09/BinTreeTester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DoIt/chap10/ChainHash.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DoIt/chap10/ChainHash.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fast/Part1/Q2744.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fast/Part1/Q2744.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/fast/Part1/input.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +67,12 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.BJ_2018">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\Desktop\업무폴더\건강검진앱소스\vi-healthcare-source_20231018\Algorith-practice\src\fast\Part1" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Q2744">
     <configuration name="BJ_2018" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="doit_java._01.BJ_2018" />
       <module name="Algorithm-practice" />
@@ -99,19 +97,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PhysicalExamination" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DoIt.chap02.PhysicalExamination" />
-      <module name="Algorithm-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DoIt.chap02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Q08_BJ_1253" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="doit_java._01.Q08_BJ_1253" />
       <module name="Algorithm-practice" />
@@ -124,6 +109,17 @@
       <method v="2">
         <option name="MakeNoErrorCheck" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="Q2744" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fast.Part1.Q2744" />
+      <module name="Algorithm-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fast.Part1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2" />
     </configuration>
     <configuration name="RecurMemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DoIt.chap05.RecurMemo" />
@@ -140,22 +136,24 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <module name="Algorithm-practice" />
-      <method v="2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Q2744" />
       <item itemvalue="Application.BJ_2018" />
       <item itemvalue="Application.Factorial" />
-      <item itemvalue="Application.PhysicalExamination" />
       <item itemvalue="Application.Q08_BJ_1253" />
       <item itemvalue="Application.RecurMemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Q2744" />
         <item itemvalue="Application.BJ_2018" />
         <item itemvalue="Application.Q08_BJ_1253" />
         <item itemvalue="Application.RecurMemo" />
         <item itemvalue="Application.Factorial" />
-        <item itemvalue="Application.PhysicalExamination" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +193,7 @@
       <workItem from="1706057970464" duration="10144000" />
       <workItem from="1706491067371" duration="7535000" />
       <workItem from="1706575819003" duration="595000" />
-      <workItem from="1706663338492" duration="600000" />
+      <workItem from="1706663338492" duration="5992000" />
     </task>
     <task id="LOCAL-00001" summary="mm">
       <created>1682959950105</created>
@@ -329,7 +327,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706502423241</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="240131">
+      <option name="closed" value="true" />
+      <created>1706663963298</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1706663963298</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -358,6 +364,7 @@
     <MESSAGE value="240110" />
     <MESSAGE value="240124" />
     <MESSAGE value="240129" />
-    <option name="LAST_COMMIT_MESSAGE" value="240129" />
+    <MESSAGE value="240131" />
+    <option name="LAST_COMMIT_MESSAGE" value="240131" />
   </component>
 </project>
