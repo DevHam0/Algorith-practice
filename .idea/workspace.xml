@@ -5,12 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a565b26b-8442-4e23-ac14-2f79d93aa9a1" name="Changes" comment="240129">
-      <change afterPath="$PROJECT_DIR$/src/doit_java/_01/Q08_BJ_1253.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DoIt/chap06/PhyscExamSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DoIt/chap06/PhyscExamSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DoIt/chap08/DoubleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DoIt/chap08/DoubleLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DoIt/chap09/Object.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DoIt/chap09/Object.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/doit_java/_01/BJ_1940.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/doit_java/_01/Q07_BJ_1940.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DoIt/chap08/ArrayLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DoIt/chap08/ArrayLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DoIt/chap08/ArrayLinkedListTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DoIt/chap08/ArrayLinkedListTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DoIt/chap08/DoubleLinkedListTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DoIt/chap08/DoubleLinkedListTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DoIt/chap08/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DoIt/chap08/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DoIt/chap08/LinkedListTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DoIt/chap08/LinkedListTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DoIt/chap09/BinTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DoIt/chap09/BinTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DoIt/chap09/BinTreeTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DoIt/chap09/BinTreeTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DoIt/chap10/ChainHash.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DoIt/chap10/ChainHash.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +58,7 @@
     "Application.Q25314.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
@@ -69,19 +74,17 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Q08_BJ_1253">
-    <configuration name="ArraySumForIn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DoIt.chap02.ArraySumForIn" />
+  <component name="RunManager" selected="Application.BJ_2018">
+    <configuration name="BJ_2018" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="doit_java._01.BJ_2018" />
       <module name="Algorithm-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DoIt.chap02.*" />
+          <option name="PATTERN" value="doit_java._01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+      <method v="2" />
     </configuration>
     <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DoIt.chap05.Factorial" />
@@ -119,7 +122,7 @@
         </pattern>
       </extension>
       <method v="2">
-        <option name="Make" enabled="true" />
+        <option name="MakeNoErrorCheck" enabled="true" />
       </method>
     </configuration>
     <configuration name="RecurMemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -135,13 +138,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <module name="Algorithm-practice" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.BJ_2018" />
+      <item itemvalue="Application.Factorial" />
+      <item itemvalue="Application.PhysicalExamination" />
+      <item itemvalue="Application.Q08_BJ_1253" />
+      <item itemvalue="Application.RecurMemo" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BJ_2018" />
         <item itemvalue="Application.Q08_BJ_1253" />
         <item itemvalue="Application.RecurMemo" />
         <item itemvalue="Application.Factorial" />
         <item itemvalue="Application.PhysicalExamination" />
-        <item itemvalue="Application.ArraySumForIn" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +193,9 @@
       <workItem from="1704762463558" duration="20725000" />
       <workItem from="1704868404394" duration="3216000" />
       <workItem from="1706057970464" duration="10144000" />
-      <workItem from="1706491067371" duration="6683000" />
+      <workItem from="1706491067371" duration="7535000" />
+      <workItem from="1706575819003" duration="595000" />
+      <workItem from="1706663338492" duration="600000" />
     </task>
     <task id="LOCAL-00001" summary="mm">
       <created>1682959950105</created>
@@ -305,7 +321,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706495486870</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="240129">
+      <option name="closed" value="true" />
+      <created>1706502423240</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1706502423241</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
