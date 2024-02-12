@@ -30,7 +30,6 @@ public class Q2744 {
 //            else System.out.println((char)('A' + str.charAt(i) - 'a'));
 //        }
 
-
         //풀이
         String str = sc.next();
         char[] ans = str.toCharArray();
