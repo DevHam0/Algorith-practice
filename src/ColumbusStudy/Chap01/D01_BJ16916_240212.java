@@ -3,9 +3,8 @@ package ColumbusStudy.Chap01;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Scanner;
 
-public class N01_BJ16916_240212 {
+public class D01_BJ16916_240212 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String s1 = br.readLine();

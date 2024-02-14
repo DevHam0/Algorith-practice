@@ -2,7 +2,7 @@ package ColumbusStudy.Chap01;
 
 import java.util.Scanner;
 
-public class N01_BJ11720_240212 {
+public class D01_BJ11720_240212 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
