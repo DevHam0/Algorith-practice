@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a565b26b-8442-4e23-ac14-2f79d93aa9a1" name="Changes" comment="240212">
-      <change afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap01/D01_BJ1316_240213.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap01/D02_BJ20154_240213.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap01/D03_BJ1157_240214.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap01/D03_BJ17413.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap01/N01_BJ9046_240212.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ColumbusStudy/Chap01/N01_BJ11720_240212.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap01/D01_BJ11720_240212.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ColumbusStudy/Chap01/N01_BJ16916_240212.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap01/D01_BJ16916_240212.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ColumbusStudy/Chap01/N01_BJ9046_240212.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap01/D01_BJ9046_240212.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ColumbusStudy/Chap01/N01_BJ16916_240212.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap01/N01_BJ16916_240212.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,34 +37,32 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ArraySumForIn.executor": "Run",
-    "Application.BJ11720_240212.executor": "Run",
-    "Application.CloneArray.executor": "Run",
-    "Application.D01_BJ16916_240212.executor": "Debug",
-    "Application.D03_BJ1157_240214.executor": "Run",
-    "Application.N01_BJ16916_240212.executor": "Run",
-    "Application.Q11382.executor": "Run",
-    "Application.Q13223.executor": "Run",
-    "Application.Q25314.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ArraySumForIn.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BJ11720_240212.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CloneArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.N01_BJ16916_240212.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Q11382.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Q13223.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Q25314.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.D03_BJ1157_240214">
+}</component>
+  <component name="RunManager" selected="Application.ArraySumForIn">
     <configuration name="ArraySumForIn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DoIt.chap02.ArraySumForIn" />
       <module name="Algorith-practice" />
@@ -135,11 +128,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.ArraySumForIn" />
+      <item itemvalue="Application.D01_BJ11720_240212" />
+      <item itemvalue="Application.D01_BJ16916_240212" />
+      <item itemvalue="Application.D03_BJ1157_240214" />
+      <item itemvalue="Application.CloneArray" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.D03_BJ1157_240214" />
-        <item itemvalue="Application.D01_BJ16916_240212" />
-        <item itemvalue="Application.D01_BJ11720_240212" />
         <item itemvalue="Application.ArraySumForIn" />
         <item itemvalue="Application.CloneArray" />
       </list>
@@ -176,8 +173,7 @@
       <workItem from="1704283218980" duration="594000" />
       <workItem from="1707723160739" duration="3903000" />
       <workItem from="1707738317023" duration="42000" />
-      <workItem from="1707742960040" duration="2148000" />
-      <workItem from="1707828130493" duration="7299000" />
+      <workItem from="1707742960040" duration="2119000" />
     </task>
     <task id="LOCAL-00001" summary="mm">
       <created>1682959950105</created>
@@ -231,15 +227,7 @@
       <option name="project" value="LOCAL" />
       <updated>1707737274428</updated>
     </task>
-    <task id="LOCAL-00008" summary="240212">
-      <option name="closed" value="true" />
-      <created>1707745091702</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1707745091702</updated>
-    </task>
-    <option name="localTasksCounter" value="9" />
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
