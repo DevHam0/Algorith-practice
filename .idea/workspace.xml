@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a565b26b-8442-4e23-ac14-2f79d93aa9a1" name="Changes" comment="240215">
-      <change afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap01/D04_BJ1929_240215.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ColumbusStudy/Chap01/D03_BJ17413.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap01/D03_BJ17413_240214.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ColumbusStudy/Chap01/D04_BJ1929_240215.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap01/D04_BJ1929_240215.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ColumbusStudy/Chap01/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap01/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,6 +44,7 @@
     "Application.BJ11720_240212.executor": "Run",
     "Application.CloneArray.executor": "Run",
     "Application.D04_BJ1929_240215.executor": "Run",
+    "Application.D04_BJ2609_240215.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.N01_BJ16916_240212.executor": "Run",
     "Application.Q11382.executor": "Run",
@@ -91,8 +93,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D03_BJ1157_240214" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ColumbusStudy.Chap01.D03_BJ1157_240214" />
+    <configuration name="D04_BJ1929_240215" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ColumbusStudy.Chap01.D04_BJ1929_240215" />
       <module name="Algorithm-practice" />
       <extension name="coverage">
         <pattern>
@@ -104,8 +106,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D04_BJ1929_240215" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ColumbusStudy.Chap01.D04_BJ1929_240215" />
+    <configuration name="D04_BJ2609_240215" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ColumbusStudy.Chap01.D04_BJ2609_240215" />
       <module name="Algorithm-practice" />
       <extension name="coverage">
         <pattern>
@@ -132,14 +134,15 @@
     </configuration>
     <list>
       <item itemvalue="Application.ArraySumForIn" />
-      <item itemvalue="Application.D03_BJ1157_240214" />
       <item itemvalue="Application.D04_BJ1929_240215" />
+      <item itemvalue="Application.D04_BJ2609_240215" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.CloneArray" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.D04_BJ1929_240215" />
+        <item itemvalue="Application.D04_BJ2609_240215" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.ArraySumForIn" />
         <item itemvalue="Application.CloneArray" />
@@ -239,7 +242,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707962234744</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="240215">
+      <option name="closed" value="true" />
+      <created>1707963788704</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1707963788704</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

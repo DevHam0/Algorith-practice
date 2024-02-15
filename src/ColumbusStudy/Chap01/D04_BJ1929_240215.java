@@ -16,11 +16,13 @@ public class D04_BJ1929_240215 {
         int N = Integer.parseInt(input[1]);
         String result = "";
         for (int i=M; i<=N; i++) {
-            if (getPrimeNumber(i)) {
-                if(result.length() != 0) {
-                    result = result + "\n" + i;
-                }else {
-                    result = i + "";
+            if (i >= 2) {
+                if (getPrimeNumber(i)) {
+                    if(result.length() != 0) {
+                        result = result + "\n" + i;
+                    }else {
+                        result = i + "";
+                    }
                 }
             }
         }
