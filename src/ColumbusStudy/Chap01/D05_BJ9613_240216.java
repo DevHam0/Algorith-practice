@@ -1,5 +1,9 @@
 package ColumbusStudy.Chap01;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
 public class D05_BJ9613_240216 {
     /*
     양의 정수 n개가 주어졌을 때, 가능한 모든 쌍의 GCD의
@@ -12,4 +16,13 @@ public class D05_BJ9613_240216 {
 
     // 각 테스트 케이스마다 가능한 모든 쌍의 GCD의 합을 출력한다.
 
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        String input = br.readLine();
+        int t = 0;
+        int n = 0;
+        for (int i=0; i<n; i++) {
+
+        }
+    }
 }
