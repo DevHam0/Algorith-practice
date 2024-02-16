@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a565b26b-8442-4e23-ac14-2f79d93aa9a1" name="Changes" comment="240215">
+      <change afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap01/D05_BJ1676_240216.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ColumbusStudy/Chap01/D03_BJ17413.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap01/D03_BJ17413_240214.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ColumbusStudy/Chap01/D04_BJ1929_240215.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap01/D04_BJ1929_240215.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ColumbusStudy/Chap01/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap01/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +44,7 @@
     "Application.CloneArray.executor": "Run",
     "Application.D04_BJ1929_240215.executor": "Run",
     "Application.D04_BJ2609_240215.executor": "Run",
-    "Application.Main.executor": "Run",
+    "Application.Main.executor": "Debug",
     "Application.N01_BJ16916_240212.executor": "Run",
     "Application.Q11382.executor": "Run",
     "Application.Q13223.executor": "Run",
@@ -66,7 +65,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.D04_BJ1929_240215">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="ArraySumForIn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DoIt.chap02.ArraySumForIn" />
       <module name="Algorith-practice" />
@@ -141,9 +140,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.D04_BJ1929_240215" />
         <item itemvalue="Application.D04_BJ2609_240215" />
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.ArraySumForIn" />
         <item itemvalue="Application.CloneArray" />
       </list>
@@ -152,7 +151,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-11.0.21-corretto-11.0.21-3183f394aec4-d55de845" />
+        <option value="jdk-11.0.22-temurin-11.0.22-4caba194b151-d1169b8f" />
       </set>
     </attachedChunks>
   </component>
@@ -181,6 +180,7 @@
       <workItem from="1707723160739" duration="3903000" />
       <workItem from="1707738317023" duration="42000" />
       <workItem from="1707742960040" duration="2119000" />
+      <workItem from="1708044955654" duration="4342000" />
     </task>
     <task id="LOCAL-00001" summary="mm">
       <created>1682959950105</created>
@@ -250,7 +250,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707963788704</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="240215">
+      <option name="closed" value="true" />
+      <created>1707985978141</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1707985978141</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,6 +306,11 @@
           <url>file://$PROJECT_DIR$/src/ColumbusStudy/Chap01/D03_BJ1157_240214.java</url>
           <line>52</line>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ColumbusStudy/Chap01/Main.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
