@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a565b26b-8442-4e23-ac14-2f79d93aa9a1" name="Changes" comment="240216">
+    <list default="true" id="a565b26b-8442-4e23-ac14-2f79d93aa9a1" name="Changes" comment="240212">
+      <change afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap01/D06_BJ2004_240217.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap01/D06_BJ22943_240217.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap01/D06_BJ6588_240217.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ColumbusStudy/Chap01/D05_BJ9613_240216.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap01/D05_BJ9613_240216.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,34 +38,34 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ArraySumForIn.executor": "Run",
-    "Application.BJ11720_240212.executor": "Run",
-    "Application.CloneArray.executor": "Run",
-    "Application.D04_BJ1929_240215.executor": "Run",
-    "Application.D04_BJ2609_240215.executor": "Run",
-    "Application.Main.executor": "Debug",
-    "Application.N01_BJ16916_240212.executor": "Run",
-    "Application.Q11382.executor": "Run",
-    "Application.Q13223.executor": "Run",
-    "Application.Q25314.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ArraySumForIn.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BJ11720_240212.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CloneArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.D04_BJ1929_240215.executor&quot;: &quot;Run&quot;,
+    &quot;Application.D04_BJ2609_240215.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.N01_BJ16916_240212.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Q11382.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Q13223.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Q25314.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="ArraySumForIn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DoIt.chap02.ArraySumForIn" />
@@ -178,8 +180,8 @@
       <workItem from="1704283218980" duration="594000" />
       <workItem from="1707723160739" duration="3903000" />
       <workItem from="1707738317023" duration="42000" />
-      <workItem from="1707742960040" duration="2119000" />
-      <workItem from="1708044955654" duration="8740000" />
+      <workItem from="1707742960040" duration="2148000" />
+      <workItem from="1707828130493" duration="7299000" />
     </task>
     <task id="LOCAL-00001" summary="mm">
       <created>1682959950105</created>
@@ -273,23 +275,7 @@
       <option name="project" value="LOCAL" />
       <updated>1708072178934</updated>
     </task>
-    <task id="LOCAL-00013" summary="240216">
-      <option name="closed" value="true" />
-      <created>1708072527554</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1708072527554</updated>
-    </task>
-    <task id="LOCAL-00014" summary="240216">
-      <option name="closed" value="true" />
-      <created>1708072956662</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1708072956662</updated>
-    </task>
-    <option name="localTasksCounter" value="15" />
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -312,9 +298,7 @@
     <MESSAGE value="231212" />
     <MESSAGE value="240103" />
     <MESSAGE value="240212" />
-    <MESSAGE value="240215" />
-    <MESSAGE value="240216" />
-    <option name="LAST_COMMIT_MESSAGE" value="240216" />
+    <option name="LAST_COMMIT_MESSAGE" value="240212" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -323,21 +307,6 @@
           <url>file://$PROJECT_DIR$/src/ColumbusStudy/Chap01/D03_BJ1157_240214.java</url>
           <line>22</line>
           <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ColumbusStudy/Chap01/D03_BJ1157_240214.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ColumbusStudy/Chap01/D03_BJ1157_240214.java</url>
-          <line>42</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ColumbusStudy/Chap01/D03_BJ1157_240214.java</url>
-          <line>52</line>
-          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
