@@ -3,6 +3,7 @@ package ColumbusStudy.Chap01;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.Stack;
 
 public class D07_BJ9012_240219 {
     /*괄호 문자열(Parenthesis String, PS)은 두 개의 괄호 기호인 ‘(’ 와 ‘)’ 만으로 구성되어 있는 문자열이다.
@@ -20,13 +21,33 @@ public class D07_BJ9012_240219 {
     // 출력은 표준 출력을 사용한다. 만일 입력 괄호 문자열이 올바른 괄호 문자열(VPS)이면 “YES”,
     // 아니면 “NO”를 한 줄에 하나씩 차례대로 출력해야 한다.
 
-    // 큐를 이용
-    public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        int T = Integer.parseInt(br.readLine()); // 데이터의 수
+    // 스택를 이용
+        public static void main(String[] args) throws IOException {
+            BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+            int T = Integer.parseInt(br.readLine());
 
+            for(int i = 0; i < T; i++) {
+                String S = br.readLine();
 
+                //문자열의 각 자리의 값을 확인할때는 char형태로 바꿔서 확인하기 때문에 스택도 Character형으로 해준다.
+                Stack<Character> stack = new Stack<Character>();
+
+                for(int j = 0; j < S.length(); j++) {
+                    if(S.charAt(j) == '(') {
+                        stack.push(S.charAt(j));
+                    }else {
+                        //비어있는지를 먼저 본다.
+                        if(stack.empty()) {
+                            stack.push(S.charAt(j));
+                            break;
+                        }else {
+                            stack.pop();
+                        }
+                    }
+                }
+                if(stack.empty()) System.out.println("YES");
+                else System.out.println("NO");
+            }
+        }
 
     }
-
-}
