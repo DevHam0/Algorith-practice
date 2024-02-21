@@ -1,5 +1,10 @@
 package ColumbusStudy.Chap01;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.Stack;
+
 public class D08_BJ1935_240220 {
     //후위 표기식과 각 피연산자에 대응하는 값들이 주어져 있을 때,
     // 그 식을 계산하는 프로그램을 작성하시오.
@@ -13,4 +18,18 @@ public class D08_BJ1935_240220 {
     20억보다 작거나 같은 입력만 주어진다.
      */
     //계산 결과를 소숫점 둘째 자리까지 출력한다.
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+        int num = Integer.parseInt(br.readLine());
+        String data = br.readLine();
+        double[] arr = new double[num];
+        for (int i=0; i<arr.length; i++) {
+            arr[i] = Double.parseDouble(br.readLine());
+        }
+
+        Stack<Double> stack = new Stack<>();
+
+        double result = 0;
+    }
 }
