@@ -34,7 +34,7 @@ back: 큐의 가장 뒤에 있는 정수를 출력한다. 만약 큐에 들어�
 
     static void pop(ArrayList queue, int num) {
         for (int i=0; i<queue.size(); i++) {
-            queue[i] = queue[i+1];
+            //queue[i] = queue[i+1];
 
         }
     }
