@@ -4,78 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a565b26b-8442-4e23-ac14-2f79d93aa9a1" name="Changes" comment="240221">
-      <change afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap00/N10_BJ3052.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap00/N11_BJ2562.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap00/N12_BJ1546.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap00/N13_BJ10992.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap00/N14_BJ10991.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap00/N15_BJ2446.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap00/N16_BJ2522.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap00/N17_BJ2445.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap00/N18_BJ2442.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap00/N19_BJ2441.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap00/N1_BJ2738.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap00/N20_BJ2440.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap00/N21_BJ2439.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap00/N22_BJ2438.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap00/N23_BJ10818.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap00/N24_BJ8393.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap00/N25_BJ1924.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap00/N26_BJ2739.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap00/N27_BJ2742.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap00/N28_BJ2741.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap00/N29_BJ11721.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap00/N2_BJ2566.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap00/N30_BJ11720.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap00/N31_BJ11719.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap00/N32_BJ11718.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap00/N33_BJ11022.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap00/N34_BJ11021.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap00/N35_BJ10953.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap00/N36_BJ10952.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap00/N37_BJ10951.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap00/N38_BJ10950.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap00/N39_BJ2558.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap00/N3_BJ2563.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap00/N40_BJ1000.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap00/N41_BJ2557.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap00/N4_BJ10871.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap00/N5_BJ10813.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap00/N6_BJ10811.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap00/N7_BJ10810.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap00/N8_BJ10807.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap00/N9_BJ5597.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap01/D10_BJ10799_240222.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap01/D10_BJ1158_240222.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sw/n1/BJ1012.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sw/n1/BJ10815.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sw/n1/BJ10844.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sw/n1/BJ11052.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sw/n1/BJ11053.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sw/n1/BJ11057.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sw/n1/BJ1149.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sw/n1/BJ11726.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sw/n1/BJ1260.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sw/n1/BJ1309.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sw/n1/BJ1463.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sw/n1/BJ15649.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sw/n1/BJ15650.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sw/n1/BJ15651.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sw/n1/BJ1697.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sw/n1/BJ1904.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sw/n1/BJ1920.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sw/n1/BJ1924.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sw/n1/BJ1932.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sw/n1/BJ2225.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sw/n1/BJ2293.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sw/n1/BJ2579.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sw/n1/BJ2667.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sw/n1/BJ8958.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sw/n1/BJ9095.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sw/n1/BJ9184.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sw/n1/BJ9461.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sw/n1/BJ9663.java" afterDir="false" />
+    <list default="true" id="a565b26b-8442-4e23-ac14-2f79d93aa9a1" name="Changes" comment="240222">
+      <change afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap01/D11_BJ1918_240223.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap01/D11_BJ2164_240223.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap01/D11_BJ3986_240223.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,6 +25,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;DevHam94&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="f30bedd8-59bb-4cb0-b8f9-a9e1949bcad7" />
+        <option name="url" value="https://github.com/DevHam94/Algorith-practice.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -106,41 +52,41 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ArraySumForIn.executor": "Run",
-    "Application.BJ11720_240212.executor": "Run",
-    "Application.CloneArray.executor": "Run",
-    "Application.D04_BJ1929_240215.executor": "Run",
-    "Application.D04_BJ2609_240215.executor": "Run",
-    "Application.D07_BJ10828_240219.executor": "Debug",
-    "Application.D09_BJ10866_240221.executor": "Run",
-    "Application.D09_BJ1874_240221.executor": "Debug",
-    "Application.D09_BJ2800_240221.executor": "Debug",
-    "Application.D10_BJ1158_240222.executor": "Run",
-    "Application.Main.executor": "Debug",
-    "Application.N01_BJ16916_240212.executor": "Run",
-    "Application.Q11382.executor": "Run",
-    "Application.Q13223.executor": "Run",
-    "Application.Q25314.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ArraySumForIn.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BJ11720_240212.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CloneArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.D04_BJ1929_240215.executor&quot;: &quot;Run&quot;,
+    &quot;Application.D04_BJ2609_240215.executor&quot;: &quot;Run&quot;,
+    &quot;Application.D07_BJ10828_240219.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.D09_BJ10866_240221.executor&quot;: &quot;Run&quot;,
+    &quot;Application.D09_BJ1874_240221.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.D09_BJ2800_240221.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.D10_BJ1158_240222.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.N01_BJ16916_240212.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Q11382.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Q13223.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Q25314.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.D10_BJ1158_240222">
     <configuration name="D07_BJ10828_240219" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ColumbusStudy.Chap01.D07_BJ10828_240219" />
@@ -260,7 +206,8 @@
       <workItem from="1708390710624" duration="3877000" />
       <workItem from="1708488975620" duration="11154000" />
       <workItem from="1708503760538" duration="4918000" />
-      <workItem from="1708563431503" duration="7415000" />
+      <workItem from="1708563431503" duration="9124000" />
+      <workItem from="1708651146626" duration="329000" />
     </task>
     <task id="LOCAL-00001" summary="mm">
       <created>1682959950105</created>
@@ -410,7 +357,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708508115986</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="240222">
+      <option name="closed" value="true" />
+      <created>1708575729809</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1708575729809</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -435,7 +390,8 @@
     <MESSAGE value="240212" />
     <MESSAGE value="240219" />
     <MESSAGE value="240221" />
-    <option name="LAST_COMMIT_MESSAGE" value="240221" />
+    <MESSAGE value="240222" />
+    <option name="LAST_COMMIT_MESSAGE" value="240222" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
