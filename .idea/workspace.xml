@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a565b26b-8442-4e23-ac14-2f79d93aa9a1" name="Changes" comment="240223">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ColumbusStudy/Chap01/D11_BJ1918_240223.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap01/D11_BJ1918_240223.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ColumbusStudy/Chap01/D11_BJ2164_240223.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap01/D11_BJ2164_240223.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ColumbusStudy/Chap01/D11_BJ3986_240223.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap01/D11_BJ3986_240223.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -208,7 +206,7 @@
       <workItem from="1708503760538" duration="4918000" />
       <workItem from="1708563431503" duration="9124000" />
       <workItem from="1708651146626" duration="350000" />
-      <workItem from="1708665176576" duration="652000" />
+      <workItem from="1708665176576" duration="1337000" />
     </task>
     <task id="LOCAL-00001" summary="mm">
       <created>1682959950105</created>
@@ -374,7 +372,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708651485129</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="240223">
+      <option name="closed" value="true" />
+      <created>1708665918759</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1708665918759</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
