@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a565b26b-8442-4e23-ac14-2f79d93aa9a1" name="Changes" comment="240223">
-      <change beforePath="$PROJECT_DIR$/src/ColumbusStudy/Chap01/D11_BJ1918_240223.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap01/D11_BJ1918_240223.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ColumbusStudy/Chap01/D11_BJ3986_240223.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap01/D11_BJ3986_240223.java" afterDir="false" />
+    <list default="true" id="a565b26b-8442-4e23-ac14-2f79d93aa9a1" name="Changes" comment="240220">
+      <change afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap01/D01_BJ10798_240212.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap01/D12_BJ1966_240224.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap01/D12_BJ2346_240224.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,20 +26,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;DevHam94&quot;
-  }
-}</component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="selectedUrlAndAccountId">
-      <UrlAndAccount>
-        <option name="accountId" value="f30bedd8-59bb-4cb0-b8f9-a9e1949bcad7" />
-        <option name="url" value="https://github.com/DevHam94/Algorith-practice.git" />
-      </UrlAndAccount>
-    </option>
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -50,42 +39,52 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.ArraySumForIn.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BJ11720_240212.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CloneArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.D04_BJ1929_240215.executor&quot;: &quot;Run&quot;,
-    &quot;Application.D04_BJ2609_240215.executor&quot;: &quot;Run&quot;,
-    &quot;Application.D07_BJ10828_240219.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.D09_BJ10866_240221.executor&quot;: &quot;Run&quot;,
-    &quot;Application.D09_BJ1874_240221.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.D09_BJ2800_240221.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.D10_BJ1158_240222.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.N01_BJ16916_240212.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q11382.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q13223.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q25314.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ArraySumForIn.executor": "Run",
+    "Application.BJ11720_240212.executor": "Run",
+    "Application.CloneArray.executor": "Run",
+    "Application.D04_BJ1929_240215.executor": "Run",
+    "Application.D04_BJ2609_240215.executor": "Run",
+    "Application.D07_BJ10828_240219.executor": "Debug",
+    "Application.D09_BJ10866_240221.executor": "Run",
+    "Application.D09_BJ1874_240221.executor": "Run",
+    "Application.Main.executor": "Debug",
+    "Application.N01_BJ16916_240212.executor": "Run",
+    "Application.Q11382.executor": "Run",
+    "Application.Q13223.executor": "Run",
+    "Application.Q25314.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.D10_BJ1158_240222">
+}]]></component>
+  <component name="RunManager" selected="Application.D09_BJ1874_240221">
+    <configuration name="D04_BJ1929_240215" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ColumbusStudy.Chap01.D04_BJ1929_240215" />
+      <module name="Algorithm-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ColumbusStudy.Chap01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="D07_BJ10828_240219" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ColumbusStudy.Chap01.D07_BJ10828_240219" />
       <module name="Algorithm-practice" />
@@ -125,21 +124,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D09_BJ2800_240221" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ColumbusStudy.Chap01.D09_BJ2800_240221" />
-      <module name="Algorithm-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ColumbusStudy.Chap01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="D10_BJ1158_240222" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ColumbusStudy.Chap01.D10_BJ1158_240222" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ColumbusStudy.Chap01.Main" />
       <module name="Algorithm-practice" />
       <extension name="coverage">
         <pattern>
@@ -152,19 +138,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.D10_BJ1158_240222" />
       <item itemvalue="Application.D09_BJ10866_240221" />
       <item itemvalue="Application.D09_BJ1874_240221" />
-      <item itemvalue="Application.D09_BJ2800_240221" />
+      <item itemvalue="Application.D04_BJ1929_240215" />
       <item itemvalue="Application.D07_BJ10828_240219" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.D10_BJ1158_240222" />
-        <item itemvalue="Application.D09_BJ2800_240221" />
         <item itemvalue="Application.D09_BJ1874_240221" />
         <item itemvalue="Application.D09_BJ10866_240221" />
         <item itemvalue="Application.D07_BJ10828_240219" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.D04_BJ1929_240215" />
       </list>
     </recent_temporary>
   </component>
@@ -202,11 +188,7 @@
       <workItem from="1707742960040" duration="2119000" />
       <workItem from="1708044955654" duration="8740000" />
       <workItem from="1708390710624" duration="3877000" />
-      <workItem from="1708488975620" duration="11154000" />
-      <workItem from="1708503760538" duration="4918000" />
-      <workItem from="1708563431503" duration="9124000" />
-      <workItem from="1708651146626" duration="350000" />
-      <workItem from="1708665176576" duration="1337000" />
+      <workItem from="1708488975620" duration="8713000" />
     </task>
     <task id="LOCAL-00001" summary="mm">
       <created>1682959950105</created>
@@ -340,47 +322,7 @@
       <option name="project" value="LOCAL" />
       <updated>1708334851162</updated>
     </task>
-    <task id="LOCAL-00018" summary="240221">
-      <option name="closed" value="true" />
-      <created>1708499060130</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1708499060130</updated>
-    </task>
-    <task id="LOCAL-00019" summary="240221">
-      <option name="closed" value="true" />
-      <created>1708508115986</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1708508115986</updated>
-    </task>
-    <task id="LOCAL-00020" summary="240222">
-      <option name="closed" value="true" />
-      <created>1708575729809</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1708575729809</updated>
-    </task>
-    <task id="LOCAL-00021" summary="240223">
-      <option name="closed" value="true" />
-      <created>1708651485129</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1708651485129</updated>
-    </task>
-    <task id="LOCAL-00022" summary="240223">
-      <option name="closed" value="true" />
-      <created>1708665918759</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1708665918759</updated>
-    </task>
-    <option name="localTasksCounter" value="23" />
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -404,10 +346,7 @@
     <MESSAGE value="240103" />
     <MESSAGE value="240212" />
     <MESSAGE value="240219" />
-    <MESSAGE value="240221" />
-    <MESSAGE value="240222" />
-    <MESSAGE value="240223" />
-    <option name="LAST_COMMIT_MESSAGE" value="240223" />
+    <option name="LAST_COMMIT_MESSAGE" value="240219" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -416,21 +355,6 @@
           <url>file://$PROJECT_DIR$/src/ColumbusStudy/Chap01/D03_BJ1157_240214.java</url>
           <line>22</line>
           <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ColumbusStudy/Chap01/D09_BJ2800_240221.java</url>
-          <line>42</line>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ColumbusStudy/Chap01/D09_BJ2800_240221.java</url>
-          <line>74</line>
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ColumbusStudy/Chap01/D09_BJ2800_240221.java</url>
-          <line>76</line>
-          <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
