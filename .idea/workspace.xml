@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a565b26b-8442-4e23-ac14-2f79d93aa9a1" name="Changes" comment="240220">
-      <change afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap01/D13_BJ1021_240225.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap01/D13_BJ2292_240225.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap01/D13_BJ2504_240225.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap01/D13_BJ2870_240225.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap01/D01_BJ10798_240212.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap01/D12_BJ1966_240224.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap01/D12_BJ2346_240224.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

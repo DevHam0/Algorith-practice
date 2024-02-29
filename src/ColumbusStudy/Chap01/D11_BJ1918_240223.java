@@ -1,6 +1,7 @@
 package ColumbusStudy.Chap01;
 
 import java.io.BufferedReader;
+import java.io.InputStreamReader;
 
 public class D11_BJ1918_240223 {
     /*
@@ -27,6 +28,6 @@ public class D11_BJ1918_240223 {
      */
     //첫째 줄에 후위 표기식으로 바뀐 식을 출력하시오
     public static void main(String[] args) {
-        BufferedReader br = new BufferedReader()
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     }
 }
