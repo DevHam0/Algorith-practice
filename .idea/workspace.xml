@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a565b26b-8442-4e23-ac14-2f79d93aa9a1" name="Changes" comment="240220">
-      <change afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap01/D01_BJ10798_240212.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap01/D12_BJ1966_240224.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap01/D12_BJ2346_240224.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a565b26b-8442-4e23-ac14-2f79d93aa9a1" name="Changes" comment="240229" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,38 +33,38 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ArraySumForIn.executor": "Run",
-    "Application.BJ11720_240212.executor": "Run",
-    "Application.CloneArray.executor": "Run",
-    "Application.D04_BJ1929_240215.executor": "Run",
-    "Application.D04_BJ2609_240215.executor": "Run",
-    "Application.D07_BJ10828_240219.executor": "Debug",
-    "Application.D09_BJ10866_240221.executor": "Run",
-    "Application.D09_BJ1874_240221.executor": "Run",
-    "Application.Main.executor": "Debug",
-    "Application.N01_BJ16916_240212.executor": "Run",
-    "Application.Q11382.executor": "Run",
-    "Application.Q13223.executor": "Run",
-    "Application.Q25314.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ArraySumForIn.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BJ11720_240212.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CloneArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.D04_BJ1929_240215.executor&quot;: &quot;Run&quot;,
+    &quot;Application.D04_BJ2609_240215.executor&quot;: &quot;Run&quot;,
+    &quot;Application.D07_BJ10828_240219.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.D09_BJ10866_240221.executor&quot;: &quot;Run&quot;,
+    &quot;Application.D09_BJ1874_240221.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.N01_BJ16916_240212.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Q11382.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Q13223.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Q25314.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.D09_BJ1874_240221">
     <configuration name="D04_BJ1929_240215" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ColumbusStudy.Chap01.D04_BJ1929_240215" />
@@ -322,7 +316,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708334851162</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="240229">
+      <option name="closed" value="true" />
+      <created>1709189378934</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1709189378934</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -346,7 +348,8 @@
     <MESSAGE value="240103" />
     <MESSAGE value="240212" />
     <MESSAGE value="240219" />
-    <option name="LAST_COMMIT_MESSAGE" value="240219" />
+    <MESSAGE value="240229" />
+    <option name="LAST_COMMIT_MESSAGE" value="240229" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
