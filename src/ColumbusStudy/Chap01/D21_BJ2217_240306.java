@@ -1,6 +1,8 @@
 package ColumbusStudy.Chap01;
 
 import java.io.*;
+import java.util.Arrays;
+import java.util.StringTokenizer;
 
 public class D21_BJ2217_240306 {
     /*
@@ -13,12 +15,25 @@ public class D21_BJ2217_240306 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+        StringTokenizer st = new StringTokenizer(br.readLine());
 
-        int n = Integer.parseInt(br.readLine());
+        int n = Integer.parseInt(st.nextToken());
+        int arr[] = new int[n];
 
-    }
+        for (int i=0; i<n; i++) {
+            st = new StringTokenizer(br.readLine());
+            arr[i] = Integer.parseInt(st.nextToken());
+        }
+        Arrays.sort(arr);
 
-    static int maxWeight(int n) {
-        for
+        long max = 0;
+        for (int i= n-1; i>= 0; i--) {
+            arr[i] = arr[i] * (n-i);
+            if (max < arr[i]) max = arr[i];
+        }
+        bw.write(max + "");
+        bw.flush();
+        bw.close();
+        br.close();
     }
 }
