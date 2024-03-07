@@ -1,6 +1,10 @@
 package ColumbusStudy.Chap01;
 
 import java.io.*;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+import java.util.StringTokenizer;
 
 public class D22_BJ2141_240307 {
     /*
@@ -10,7 +14,7 @@ public class D22_BJ2141_240307 {
      */
     // 첫째 줄에 N(1 ≤ N ≤ 100,000)이 주어진다. 다음 N개의 줄에는 X[1], A[1], X[2], A[2], …, X[N], A[N]이 주어진다. 범위는 |X[i]| ≤ 1,000,000,000, 1 ≤ A[i] ≤ 1,000,000,000 이며 모든 입력은 정수이다.
     // 첫째 줄에 우체국의 위치를 출력한다. 가능한 경우가 여러 가지인 경우에는 더 작은 위치를 출력하도록 한다.
-    public static void main(String[] args) throws IOException {
+    /*public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
         int n = Integer.parseInt(br.readLine());
@@ -21,5 +25,49 @@ public class D22_BJ2141_240307 {
             towns[i] = Integer.parseInt(br.readLine());
             people[i] = Integer.parseInt(br.readLine());
         }
+    }*/
+
+    static class House implements Comparable<House> {
+        long pos, val;
+        public House(long pos, long val) {
+            this.pos = pos;
+            this.val = val;
+        }
+        // 마을위치기준 오른차순 정렬
+        @Override
+        public int compareTo(House o) {
+            return (int) (this.pos - o.pos);
+        }
+    }
+
+    public static void main(String[] args) throws IOException{
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+        int n = Integer.parseInt(br.readLine());
+        StringTokenizer st;
+        // 마을 정보 저장 리스트
+        List<House> houseList = new ArrayList<>();
+        long sum = 0;
+        // 마을 정보를 저장
+        for (int i=0; i<n; i++) {
+            st = new StringTokenizer(br.readLine(), " ");
+            long pos = Long.parseLong(st.nextToken());
+            long val = Long.parseLong(st.nextToken());
+            houseList.add(new House(pos, val));
+            sum += val; // 총인원 구하기
+        }
+        Collections.sort(houseList);    // 마을 위치 기준 오른차순 정렬
+        long result = 0;
+        // 가장 먼저 중간값보다 크거나 같은 마을 탐색
+        for (int i=0; i<n; i++) {
+            result += houseList.get(i).val;
+            if ((sum + 1)/2 <= result) { // (sum+1)/2 중간값
+                bw.write(String.valueOf(houseList.get(i).pos));
+                break;
+            }
+        }
+        bw.flush();
+        bw.close();
+        br.close();
     }
 }
