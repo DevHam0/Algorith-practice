@@ -3,6 +3,7 @@ package ColumbusStudy.Chap02;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.StringTokenizer;
 
 /*
 하루에 한 시간 단위로 일을 하거나 일을 쉬어도 된다. 하루에 한 시간 일하면 피로도는
@@ -21,9 +22,27 @@ A,B,C,M이 공백으로 구분되어 주어진다.
 public class D04_BJ22864_240321 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        String input = br.readLine();
+        StringTokenizer st = new StringTokenizer(br.readLine());
+        int a = Integer.parseInt(st.nextToken());
+        int b = Integer.parseInt(st.nextToken());
+        int c = Integer.parseInt(st.nextToken());
+        int m = Integer.parseInt(st.nextToken());
+        int sum = 0;
         int tired = 0;
 
+        // 그리디 알고리즘 을 사용
+        for (int i=0 ; i<24; i++) {
+            if (tired + a <= m) {
+                sum += b;
+                tired += a;
+            } else {
+                tired -= c;
+                if (tired < 0) {
+                    tired = 0;
+                }
+            }
+        }
+        System.out.println(sum);
 
     }
 }
