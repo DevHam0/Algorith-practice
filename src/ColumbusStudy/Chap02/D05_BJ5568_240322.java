@@ -4,7 +4,9 @@ package ColumbusStudy.Chap02;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 /*
 상근이는 카드 n(4 ≤ n ≤ 10)장을 바닥에 나란히 놓고 놀고있다. 각 카드에는 1이상 99이하의 정수가 적혀져 있다. 상근이는 이 카드 중에서 k(2 ≤ k ≤ 4)장을 선택하고,
@@ -36,10 +38,13 @@ public class D05_BJ5568_240322 {
     }
 
     static void func() {
-        int result = 0;
+        int count = 0;
+        List<String> list = new ArrayList<>();
 
+        for (int i=0; i<k; i++) {
+            for (int i=0; i<k-1)
+        }
 
-
-        System.out.println();
+        System.out.println(count);
     }
 }
