@@ -42,7 +42,9 @@ public class D05_BJ5568_240322 {
         List<String> list = new ArrayList<>();
 
         for (int i=0; i<k; i++) {
-            for (int i=0; i<k-1)
+            for (int j=0; j<k-1; j++) {
+
+            }
         }
 
         System.out.println(count);
