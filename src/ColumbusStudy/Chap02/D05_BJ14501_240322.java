@@ -99,7 +99,7 @@ public class D05_BJ14501_240322 {
             P[i] = Integer.parseInt(st.nextToken()); // 돈
         }
 
-        for (int i=N; i>0;i--) {
+        for (int i=N; i>0; i--) {
             int next = i + T[i]; // 다음 날짜
 
             if (next > N + 1) { // 일할 수 있는 날짜를 넘기는 경우
