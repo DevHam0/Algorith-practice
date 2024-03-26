@@ -1,5 +1,12 @@
 package ColumbusStudy.Chap02;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.LinkedList;
+import java.util.Queue;
+import java.util.StringTokenizer;
+
 /*
 차세대 영농인 한나는 강원도 고랭지에서 유기농 배추를 재배하기로 하였다. 농약을 쓰지 않고 배추를 재배하려면 배추를 해충으로부터 보호하는 것이 중요하기 때문에,
 한나는 해충 방지에 효과적인 배추흰지렁이를 구입하기로 결심한다. 이 지렁이는 배추근처에 서식하며 해충을 잡아 먹음으로써 배추를 보호한다. 특히, 어떤 배추에 배추흰지렁이가 한 마리라도 살고 있으면
@@ -11,4 +18,116 @@ package ColumbusStudy.Chap02;
 // 그리고 배추가 심어져 있는 위치의 개수 K(1 ≤ K ≤ 2500)이 주어진다. 그 다음 K줄에는 배추의 위치 X(0 ≤ X ≤ M-1), Y(0 ≤ Y ≤ N-1)가 주어진다. 두 배추의 위치가 같은 경우는 없다.
 //각 테스트 케이스에 대해 필요한 최소의 배추흰지렁이 마리 수를 출력한다.
 public class D08_BJ1012_240326 {
+
+    static int M, N, K;
+    static int[][] cabbage;
+    static boolean[][] visit;
+    static int count;
+    static int[] dx = { 0, -1, 0, 1};
+    static int[] dy = { 1, 0, -1, 0};
+
+    /*
+    DFS
+     */
+    /*public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        int tc = Integer.parseInt(br.readLine());
+
+        for (int i=0; i<tc; i++) {
+            count = 0;
+            StringTokenizer st = new StringTokenizer(br.readLine(), " ");
+            M = Integer.parseInt(st.nextToken());
+            N = Integer.parseInt(st.nextToken());
+            cabbage = new int[M][N];
+            visit = new boolean[M][N];
+
+            K = Integer.parseInt(st.nextToken());
+            for (int j=0; j<K; j++) {
+                st = new StringTokenizer(br.readLine(), " ");
+                int p1 = Integer.parseInt(st.nextToken());
+                int p2 = Integer.parseInt(st.nextToken());
+                cabbage[p1][p2] = 1;
+            }
+
+            for (int x = 0; x<M; x++) {
+                for (int y=0; y < N; y++) {
+                    if (cabbage[x][y] == 1&& !visit[x][y]) {
+                        dfs(x, y);
+                        count++;
+                    }
+                }
+            }
+
+            System.out.println(count);
+        }
+    }
+
+    static void dfs(int x, int y) {
+        visit[x][y] = true;
+
+        for (int i=0; i<4; i++) {
+            int cx = x + dx[i];
+            int cy = y + dy[i];
+
+            if (cx >= 0 && cy >= 0 && cx < M && cy < N) {
+                if (!visit[cx][cy] && cabbage[cx][cy] == 1) {
+                    dfs(cx, cy);
+                }
+            }
+        }
+    }*/
+
+    /*
+        BFS
+     */
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        int T = Integer.parseInt(br.readLine());
+
+        for (int c = 0; c < T; c++) {
+            StringTokenizer st = new StringTokenizer(br.readLine(), " ");
+            M = Integer.parseInt(st.nextToken());
+            N = Integer.parseInt(st.nextToken());
+            K = Integer.parseInt(st.nextToken());
+            cabbage = new int[M][N];
+            visit = new boolean[M][N];
+            count = 0;
+
+            for (int i=0 ; i<K; i++) {
+                st = new StringTokenizer(br.readLine(), " ");
+                int p1 = Integer.parseInt(st.nextToken());
+                int p2 = Integer.parseInt(st.nextToken());
+                cabbage[p1][p2] = 1;
+            }
+
+            for (int i=0; i<M; i++) {
+                for (int j=0; j<N; j++) {
+                    if (cabbage[i][j])
+                }
+            }
+        }
+    }
+
+    static void bfs(int x, int y) {
+        Queue<int[]> qu = new LinkedList<int[]>();
+        qu.add(new int[] { x, y });
+
+        while (!qu.isEmpty()) {
+            x = qu.peek()[0];
+            y = qu.peek()[1];
+            visit[x][y] = true;
+            qu.poll();
+            for (int i=0; i < 4; i++) {
+                int cx = x + dx[i];
+                int cy = y + dy[i];
+
+                if (cx >= 0 && cy >= 0 && cx < M && cy < N) {
+                    if (!visit[cx][cy] && cabbage[cx][cy] == 1) {
+                        qu.add(new int[] { cx, cy });
+                        visit[cx][cy] = true;
+                    }
+                }
+            }
+        }
+    }
 }

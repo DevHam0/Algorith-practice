@@ -1,5 +1,12 @@
 package ColumbusStudy.Chap02;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.LinkedList;
+import java.util.Queue;
+import java.util.StringTokenizer;
+
 /*
 철수의 토마토 농장에서는 토마토를 보관하는 큰 창고를 가지고 있다. 토마토는 아래의 그림과 같이 격자 모양 상자의 칸에 하나씩 넣어서 창고에 보관한다.
 창고에 보관되는 토마토들 중에는 잘 익은 것도 있지만, 아직 익지 않은 토마토들도 있을 수 있다. 보관 후 하루가 지나면, 익은 토마토들의 인접한 곳에 있는 익지 않은 토마토들은
@@ -14,4 +21,74 @@ package ColumbusStudy.Chap02;
 //토마토가 하나 이상 있는 경우만 입력으로 주어진다.
 //여러분은 토마토가 모두 익을 때까지의 최소 날짜를 출력해야 한다. 만약, 저장될 때부터 모든 토마토가 익어있는 상태이면 0을 출력해야 하고, 토마토가 모두 익지는 못하는 상황이면 -1을 출력해야 한다.
 public class D08_BJ7576_240326 {
+    static int[] dx = {-1, 1, 0, 0};
+    static int[] dy = {0, 0, -1, 1};
+    static int n, m;
+    static int[][] map;
+    static Queue<int[]> q = new LinkedList<>();
+
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer st;
+
+        st = new StringTokenizer(br.readLine());
+        m = Integer.parseInt(st.nextToken());
+        n = Integer.parseInt(st.nextToken());
+
+        map = new int[n][m];
+
+        for (int i=0; i<n; i++) {
+            st = new StringTokenizer(br.readLine());
+            for (int j=0; j<m; j++) {
+                map[i][j] = Integer.parseInt(st.nextToken());
+                if (map[i][j] == 1) {
+                    q.add(new int[]{i, j});
+                }
+            }
+        }
+
+        System.out.println(bfs());
+    }
+
+    private static int bfs() {
+        while (!q.isEmpty()) {
+            int[] t = q.poll();
+            int x = t[0];
+            int y = t[1];
+            for (int i=0; i<4; i++) {
+                int nx = x + dx[i];
+                int ny = y + dy[i];
+                if (nx < 0 || nx >= n || ny < 0 || ny >= m) continue;
+                if (map[nx][ny] == 0) {
+                    map[nx][ny] = map[x][y] + 1;
+                    q.add(new int[]{nx, ny});
+                }
+            }
+        }
+
+        int max = Integer.MIN_VALUE;
+        if (checkZero()) {
+            return -1;
+        } else {
+            for (int i=0; i<n; i++) {
+                for (int j=0; j < m; j++) {
+                    if (max < map[i][j]) {
+                        max = map[i][j];
+                    }
+                }
+            }
+
+            return max - 1;
+        }
+    }
+
+    private static boolean checkZero() {
+        for (int i=0; i<n; i++) {
+            for (int j=0; j<m; j++) {
+                if (map[i][j] == 0)
+                    return true;
+            }
+        }
+        return false;
+    }
 }
