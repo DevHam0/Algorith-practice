@@ -102,7 +102,7 @@ public class D08_BJ1012_240326 {
 
             for (int i=0; i<M; i++) {
                 for (int j=0; j<N; j++) {
-                    if (cabbage[i][j])
+                    //if (cabbage[i][j])
                 }
             }
         }
