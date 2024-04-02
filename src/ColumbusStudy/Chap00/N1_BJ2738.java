@@ -32,11 +32,21 @@ public class N1_BJ2738 {
             st = new StringTokenizer(br.readLine());
 
             for (int j=0; j<M; j++) {
-                B[i][j] = A[i][j] + Integer.parseInt(st.nextToken());
-                System.out.print(B[i][j] + " ");
+                B[i][j] = Integer.parseInt(st.nextToken());
             }
-            System.out.println();
         }
+
+        for (int i=0; i<N; i++) {
+
+            for (int j=0; j<M; j++) {
+                System.out.print(A[i][j] + B[i][j] + " ");
+            }
+            if (i != N -1) {
+                System.out.println();
+            }
+        }
+
+
 
 
 
