@@ -1,5 +1,10 @@
 package ColumbusStudy.Chap02;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.StringTokenizer;
+
 /*
 N×N크기의 땅이 있고, 땅은 1×1개의 칸으로 나누어져 있다. 각각의 땅에는 나라가 하나씩 존재하며, r행 c열에 있는 나라에는 A[r][c]명이 살고 있다.
 인접한 나라 사이에는 국경선이 존재한다. 모든 나라는 1×1 크기이기 때문에, 모든 국경선은 정사각형 형태이다.
@@ -18,8 +23,16 @@ N×N크기의 땅이 있고, 땅은 1×1개의 칸으로 나누어져 있다. �
 //인구 이동이 며칠 동안 발생하는지 첫째 줄에 출력한다.
 public class D14_BJ16234_240402 {
     static int N, L, R;
+    static int[][] A;
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer st = new StringTokenizer(br.readLine());
+        N = Integer.parseInt(st.nextToken());
+        L = Integer.parseInt(st.nextToken());
+        R = Integer.parseInt(st.nextToken());
+
+        //for (int)
 
     }
 }
