@@ -4,13 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a565b26b-8442-4e23-ac14-2f79d93aa9a1" name="Changes" comment="240225">
-      <change afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap02/D15_BJ16954_240403.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap02/D15_BJ1991_240403.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap02/D15_BJ7562_240403.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap02/D16_BJ17836_240404.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ColumbusStudy/Chap02/D16_BJ2146_240404.java" afterDir="false" />
+    <list default="true" id="a565b26b-8442-4e23-ac14-2f79d93aa9a1" name="Changes" comment="240412">
+      <change afterPath="$PROJECT_DIR$/src/doit_java/_01/Q3_BJ11659.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/doit_java/_01/BJ11660.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/doit_java/_01/BJ_10986.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/doit_java/_01/BJ_11659.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/doit_java/_01/BJ_11720.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/doit_java/_01/BJ_1546.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/doit_java/_01/BJ_2018.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +29,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "DevHam94"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/DevHam0/Algorith-practice.git",
+    "accountId": "33bd2000-665f-49ac-b8be-566a71ebc55f"
+  }
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -45,6 +59,7 @@
     &quot;Application.ArraySumForIn.executor&quot;: &quot;Run&quot;,
     &quot;Application.BJ11720_240212.executor&quot;: &quot;Run&quot;,
     &quot;Application.CloneArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.D01_BJ2551_240318.executor&quot;: &quot;Run&quot;,
     &quot;Application.D04_BJ1929_240215.executor&quot;: &quot;Run&quot;,
     &quot;Application.D04_BJ2609_240215.executor&quot;: &quot;Run&quot;,
     &quot;Application.D07_BJ10828_240219.executor&quot;: &quot;Debug&quot;,
@@ -72,13 +87,13 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.D09_BJ1874_240221">
-    <configuration name="D04_BJ1929_240215" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ColumbusStudy.Chap01.D04_BJ1929_240215" />
+  <component name="RunManager" selected="Application.D01_BJ25501_240318">
+    <configuration name="D01_BJ25501_240318" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ColumbusStudy.Chap02.D01_BJ25501_240318" />
       <module name="Algorithm-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ColumbusStudy.Chap01.*" />
+          <option name="PATTERN" value="ColumbusStudy.Chap02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,24 +156,25 @@
     <list>
       <item itemvalue="Application.D09_BJ10866_240221" />
       <item itemvalue="Application.D09_BJ1874_240221" />
-      <item itemvalue="Application.D04_BJ1929_240215" />
       <item itemvalue="Application.D07_BJ10828_240219" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.D01_BJ25501_240318" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.D01_BJ25501_240318" />
         <item itemvalue="Application.D09_BJ1874_240221" />
         <item itemvalue="Application.D09_BJ10866_240221" />
         <item itemvalue="Application.D07_BJ10828_240219" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.D04_BJ1929_240215" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-11.0.22-temurin-11.0.22-4caba194b151-d1169b8f" />
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17890.1" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17890.1" />
       </set>
     </attachedChunks>
   </component>
@@ -190,6 +206,10 @@
       <workItem from="1708044955654" duration="8740000" />
       <workItem from="1708390710624" duration="3877000" />
       <workItem from="1708488975620" duration="8713000" />
+      <workItem from="1709972604355" duration="15000" />
+      <workItem from="1710764313079" duration="4873000" />
+      <workItem from="1713348048142" duration="597000" />
+      <workItem from="1718554474217" duration="2931000" />
     </task>
     <task id="LOCAL-00001" summary="mm">
       <created>1682959950105</created>
@@ -323,7 +343,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708334851162</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="240412">
+      <option name="closed" value="true" />
+      <created>1712910570775</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1712910570775</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -347,7 +375,8 @@
     <MESSAGE value="240103" />
     <MESSAGE value="240212" />
     <MESSAGE value="240219" />
-    <option name="LAST_COMMIT_MESSAGE" value="240219" />
+    <MESSAGE value="240412" />
+    <option name="LAST_COMMIT_MESSAGE" value="240412" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
