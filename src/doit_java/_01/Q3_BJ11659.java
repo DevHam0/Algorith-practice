@@ -1,21 +1,23 @@
 package doit_java._01;
 
 import java.io.BufferedReader;
+import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class BJ_11659 {
-    public static void main(String[] args) throws Exception {
+public class Q3_BJ11659 {
+    public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
-        int suNo = Integer.parseInt(st.nextToken());
-        int quizNo = Integer.parseInt(st.nextToken());
-        long[] S = new long[suNo + 1];
+        int N = Integer.parseInt(st.nextToken());
+        int M = Integer.parseInt(st.nextToken());
+
         st = new StringTokenizer(br.readLine());
-        for (int i = 1; i <= suNo; i++) {
+        long[] S = new long[N + 1];
+        for (int i = 1; i <= N; i++) {
             S[i] = S[i - 1] + Integer.parseInt(st.nextToken());
         }
-        for (int q = 0; q < quizNo; q++) {
+        for (int q = 0; q < M; q++) {
             st = new StringTokenizer(br.readLine());
             int i = Integer.parseInt(st.nextToken());
             int j = Integer.parseInt(st.nextToken());
